@@ -1,0 +1,40 @@
+/* Header */
+
+h1 {
+	color: rgba(255,255,255, 0.9);
+	font-size: 34pt;
+	font-weight: bold;
+	text-shadow: 0.1em 0.0em 0.1em rgba(0,0,0, 1.0);
+}
+
+/* Body */
+
+ body {
+    font-size: 10pt;
+    font-family: Arial;
+}
+
+.bg {
+  background-image: url('../images/background.jpg');
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+position: fixed;
+  top: -5%;
+  left: -5%;
+  z-index: -1;
+  position: fixed;
+  width: 110%;
+  height: 110%;
+
+}
+
+.text-left {
+    text-align: left;
+}
