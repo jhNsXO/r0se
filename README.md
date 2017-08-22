@@ -1,3 +1,0 @@
-# jhnsxo
-~
-dumb
